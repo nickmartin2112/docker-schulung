@@ -1,7 +1,8 @@
 1. Aufgabe
 
 In diesen Dockerfile wollen wir das Hello World aus die index.php 
-Datei hinein kopieren um es später anzuzeigen
+Datei hinein kopieren um es später anzuzeigen.
+
 Beachte Folgendes:
  - Der Image Name soll heissen: helloworld:1.0.0
 - Frage wie viele Layer hat das Image?
