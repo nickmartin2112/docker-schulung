@@ -12,11 +12,15 @@ der Container im detach läuft.
 Hilfe:
 
 copy - kopiert Datein vom Localhost in das jeweilige Verzeichnis
+
 docker build [Options] . (-t IMAGENAME)
+
     -f Folder dockerfile 
 
 docker run [OPTIONS] IMAGENAME
+
     -p [127.0.0.1:[öffentlicher Port]:[Zielport im docker]]
+
     -d  Container laufen im Hintergrund
 
 
