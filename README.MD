@@ -1,21 +1,22 @@
-1. Aufgabe
+g1. Aufgabe
 
-In diesen Dockerfile wollen wir das Hello World aus die index.php 
+In diesen Dockerfile wollen wir das Hello World aus die index.php
 Datei hinein kopieren um es später anzuzeigen.
 
 Beachte Folgendes:
- - Der Image Name soll heissen: helloworld:1.0.0
+
+- Der Image Name soll heissen: helloworld:1.0.0
 - Frage hat das Image mehr als 3 Layer? [ANTWORT]
-- Starte das image als Containername meinerstercontainer auf port 9112. Achte daruf das 
-der Container im detach läuft.
+- Starte das image als Containername meinerstercontainer auf port 9112. Achte daruf das
+  der Container im detach läuft.
 
 Hilfe:
 
 copy - kopiert Datein vom Localhost in das jeweilige Verzeichnis
 
 docker build [Options] . (-t IMAGENAME)
-    --build-arg="IMPERIUM=Star Wars"
-    -f Folder dockerfile 
+--build-arg="IMPERIUM=Star Wars"
+-f Folder dockerfile
 
 docker run [OPTIONS] IMAGENAME
 
