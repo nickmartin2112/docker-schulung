@@ -14,13 +14,13 @@ Hilfe:
 copy - kopiert Datein vom Localhost in das jeweilige Verzeichnis
 
 docker build [Options] . (-t IMAGENAME)
-
+    --build-arg="IMPERIUM=Star Wars"
     -f Folder dockerfile 
 
 docker run [OPTIONS] IMAGENAME
 
     -p [127.0.0.1:[öffentlicher Port]:[Zielport im docker]]
-
+    -e USER="DER HAMMER"
     -d  Container laufen im Hintergrund
 
 
